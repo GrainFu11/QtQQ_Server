@@ -48,7 +48,7 @@ bool QtQQ_Server::connectMySql()
     db.setDatabaseName("qtqq");
     db.setHostName("localhost");
     db.setUserName("root");
-    db.setPassword("wkw233...");
+    db.setPassword("");
     db.setPort(3306);
 
     if (db.open()) {
